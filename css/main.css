@@ -104,13 +104,16 @@ button {
 .container {
     margin: 0 auto;
     max-width: 1600px;
+    background-color: #fff;
 }
 .block {
     margin: 0 auto;
     max-width: 1336px;
+
 }
 
 .btn {
+    display: block;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
@@ -122,6 +125,7 @@ button {
     text-align: center;
 }
 
+/* header */
 .header {
 }
 .header__flex {
@@ -145,10 +149,63 @@ button {
     font-size: 20px;
     color: #263238;
 }
-.btn {
+.header__flex .btn {
     margin-top: 5px;
-    padding-top: 10px;
+    padding-top: 14px;
     font-weight: 400;
     font-size: 24px;
     color: #000;
+}
+
+/* title */
+.title {
+}
+
+.title_flex {
+    padding-top: 52px;
+    display: flex;
+    justify-content: left;
+}
+.title_flex-left {
+    margin-right: 30px;
+
+}
+
+.title_flex-h1 {
+    padding-top: 47px;
+    display: flex;
+}
+.title_flex-h1 img {
+    padding-top: 66px;
+    padding-left: 37px;
+    align-self: center;
+}
+.title_flex-h1 h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 125%;
+    color: #000;
+}
+.title_flex-left p {
+    padding-top: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #8f95a5;
+    margin-bottom: 65px;
+}
+.title_flex-left .btn {
+    padding-top: 30px;
+    border-radius: 15px;
+    width: 438px;
+    height: 118px;
+    background: #263238;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+}
+.title_flex-right img {
+    padding-left: 20px;
 }
