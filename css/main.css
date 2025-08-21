@@ -212,7 +212,7 @@ button {
 }
 
 /* skills */
-h2 {
+.skills h2 {
     padding-top: 150px;
     font-family: var(--font-family);
     font-weight: 600;
@@ -229,7 +229,7 @@ h2 {
     "one four four";
     align-items: stretch;
     gap: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 253px;
 }
 .skills__grid-card {
     background: #f5f5f5;
@@ -338,4 +338,59 @@ h2 {
 }
 .listening .btn {
     width: 218px;
+}
+
+/* About Us */
+.about_us {
+}
+.about_us__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.about_us__flex-left {
+    padding-top: 29px;
+}
+.about_us__flex-left h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    color: #000;
+    padding-bottom: 24px;
+}
+.about_us__flex-left p {
+    max-width: 635px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #8f95a5;
+    padding-bottom: 37px;
+}
+.about_us__flex-result_flex {
+    display: flex;
+}
+.about_us__flex-result_flex-item {
+}
+.about_us__flex-result_flex-item-number {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    color: #2a3246;
+    text-align: center;
+}
+.about_us__flex-result_flex-item-name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #8f95a5;
+    text-align: center;
+}
+#teachers {
+    padding-left: 140px;
+}
+#foreign {
+    padding-left: 88px;
+}
+.about_us__flex-right {
 }
