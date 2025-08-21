@@ -39,6 +39,7 @@
 /* Наследование шрифтов и размеров по умолчанию */
 html, body {
     height: 100%;
+    background-color: #e5e5e5;
     font-family: var(--font-family); /* или твой шрифт по умолчанию */
     -webkit-text-size-adjust: 100%; /* избегаем масштабирования на iOS */
 }
@@ -97,4 +98,57 @@ button {
 /* Скрываем скрытые элементы */
 [hidden] {
     display: none !important;
+}
+
+/* Глобальные настройки проекта */
+.container {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+.block {
+    margin: 0 auto;
+    max-width: 1336px;
+}
+
+.btn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+}
+
+.header {
+}
+.header__flex {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+}
+.header__flex img {
+    margin-right: 252px;
+}
+.header__flex-menu_grid {
+    padding-top: 21px;
+    margin-right: 243px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+}
+.header__flex-menu_grid a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #263238;
+}
+.btn {
+    margin-top: 5px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
 }
