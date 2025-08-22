@@ -39,6 +39,7 @@
 /* Наследование шрифтов и размеров по умолчанию */
 html, body {
     height: 100%;
+    scroll-behavior: smooth;
     background-color: #e5e5e5;
     font-family: var(--font-family); /* или твой шрифт по умолчанию */
     -webkit-text-size-adjust: 100%; /* избегаем масштабирования на iOS */
@@ -152,6 +153,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 14px;
+    justify-items: center;
 }
 .header__flex-menu_grid a {
     font-family: var(--font-family);
@@ -182,18 +184,13 @@ h2 {
     justify-content: left;
 }
 .title_flex-left {
+    max-width: 544px;
     margin-right: 30px;
-
 }
 
 .title_flex-h1 {
     padding-top: 47px;
     display: flex;
-}
-.title_flex-h1 img {
-    padding-top: 66px;
-    padding-left: 37px;
-    align-self: center;
 }
 .title_flex-h1 h1 {
     font-family: var(--font-family);
@@ -202,6 +199,12 @@ h2 {
     line-height: 125%;
     color: #000;
 }
+.title_flex-h1 img {
+    padding-top: 66px;
+    padding-left: 37px;
+    align-self: center;
+}
+
 .title_flex-left p {
     padding-top: 40px;
     font-family: var(--font-family);
@@ -281,6 +284,7 @@ h2 {
     padding-left: 38px;
 }
 .speaking p {
+    max-width: 341px;
     padding-top: 18px;
     margin-bottom: 32px;
 }
@@ -300,12 +304,12 @@ h2 {
     padding-left: 38px;
 }
 .writing p {
+    max-width: 341px;
     padding-top: 8px;
     margin-bottom: 32px;
 }
 .writing .btn {
     width: 218px;
-    /* margin-bottom: 92px; */
 }
 .reading {
     grid-area: three;
@@ -319,6 +323,7 @@ h2 {
     padding-left: 40px;
 }
 .reading p {
+    max-width: 356px;
     padding-top: 3px;
     margin-bottom: 32px;
 }
@@ -343,6 +348,7 @@ h2 {
     padding-top: 16px;
 }
 .listening p {
+    max-width: 329px;
     padding-top: 11px;
     margin-bottom: 22px;
 }
@@ -555,4 +561,229 @@ h2 {
     font-weight: 400;
     font-size: 24px;
     color: #8f95a5;
+}
+
+@media screen and (max-width: 992px) {
+    .block {
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+    .header__flex {
+        padding-top: 28px;
+    }
+    .header__flex img {
+        width: 89px;
+        height: 45px;
+        margin-right: 154px;
+    }
+    .header__flex-menu_grid {
+        padding-top: 17px;
+        margin-right: 104px;
+    }
+    .header__flex-menu_grid a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #263238;
+}
+    .header__flex .btn {
+        width: 160px;
+        height: 50px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        color: #000;
+    }
+
+    .title_flex-left {
+        max-width: 417px;
+        margin-right: 83px;
+    }
+    .title_flex-h1 {
+        padding-top: 22px;
+    }
+    .title_flex-h1 h1 {
+        margin-right: 11px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 133%;
+        color: #000;
+    }
+    .title_flex-h1 img {
+        width: 85px;
+        height: auto;
+        padding-top: 66px;
+        padding-left: 0px;
+        align-self: center;
+    }
+    .title_flex-left p {
+        padding-top: 27px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        color: #8f95a5;
+        margin-bottom: 33px;
+    }
+    .title_flex-left .btn {
+        padding-top: 19px;
+        border-radius: 5px;
+        width: 292px;
+        height: 80px;
+        background: #263238;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        color: #fff;
+    }
+    .title_flex-right img {
+        padding-top: 89px;
+        padding-left: 0px;
+    }
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 167%;
+        color: #000;
+    }
+    .skills h2 {
+        padding-top: 82px;
+    }
+    .skills__grid {
+        padding-top: 62px;
+        gap: 15px;
+        padding-bottom: 50px;
+    }
+    .skills__grid-card h6 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 0%;
+        color: #263238;
+    }
+    .skills__grid-card p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #8f95a5;
+
+    }
+    .skills__grid-card .btn{
+        padding-top: 12px;
+        border-radius: 5px;
+        width: 196px;
+        height: 57px;
+        background: #263238;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .speaking .skills__grid-card-img {
+        width: 280px;
+        height: auto;
+        padding-top: 5px;
+        padding-left: 23px;
+        margin-right: 10px;
+    }
+    .speaking .skills__grid-card-content {
+        padding-top: 38px;
+        padding-left: 29px;
+        /* margin-right: 10px; */
+    }
+    .speaking p {
+        max-width: 222px;
+        padding-top: 32px;
+        margin-bottom: 45px;
+    }
+    .speaking .btn {
+        margin-bottom: 51px;
+    }
+
+    .writing .skills__grid-card-img img {
+        display: block;
+        width: 187px;
+        height: auto;
+    }
+    .writing .skills__grid-card-img {
+        padding-top: 29px;
+        padding-left: 96px;
+        margin-right: 0px;
+    }
+    .writing .skills__grid-card-content {
+        padding-top: 30px;
+        padding-left: 27px;
+    }
+    .writing p {
+        max-width: 245px;
+        padding-top: 27px;
+        margin-bottom: 25px;
+    }
+    .writing .btn {
+        margin-bottom: 0px;
+    }
+
+    .reading .skills__grid-card-img img {
+        display: block;
+        width: 247px;
+        height: auto;
+        margin-right: 0px;
+    }
+    .reading .skills__grid-card-img {
+        padding-top: 13px;
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+    .reading .skills__grid-card-content {
+        padding-top: 43px;
+        padding-left: 11px;
+    }
+    .reading p {
+        max-width: 232px;
+        padding-top: 25px;
+        margin-bottom: 23px;
+    }
+    .reading .btn {
+    }
+
+    .listening {
+        grid-area: four;
+        display: flex;
+        flex-direction: row;
+        padding-top: 14px;
+        padding-left: 31px;
+    }
+    .listening .skills__grid-card-img img {
+        display: block;
+        width: 254px;
+        height: auto;
+    }
+    .listening .skills__grid-card-img {
+        order: 2;
+    }
+    .listening .skills__grid-card-img {
+        padding-top: 0px;
+        padding-left: 21px;
+    }
+    .listening .skills__grid-card-content {
+        padding-top: 16px;
+    }
+    .listening p {
+        max-width: 287px;
+        padding-top: 26px;
+        margin-bottom: 13px;
+    }
+    .listening .btn {
+
+    }
+
+
+
+    .contact_us {
+        display: none;
+    }
+
 }
