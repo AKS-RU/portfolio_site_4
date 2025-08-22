@@ -489,6 +489,7 @@ h2 {
 .contact_us__flex {
     padding-top: 237px;
     display: flex;
+    padding-bottom: 165px;
 }
 .contact_us__flex-content {
     padding-left: 124px;
@@ -524,6 +525,22 @@ h2 {
     height: 80px;
     background: #263238;
 }
-.contact_us__flex-content-send_email a[placeholder] {
 
+/* footer */
+
+.footer hr {
+    background: #c4c4c4;
+}
+.footer__flex {
+    padding-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 56px;
+}
+.footer__flex p {
+    padding-top: 22px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #8f95a5;
 }
