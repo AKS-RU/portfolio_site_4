@@ -482,3 +482,48 @@ h2 {
 #card3 a {
     margin-left: 12px;
 }
+
+/* contact us */
+.contact_us {
+}
+.contact_us__flex {
+    padding-top: 237px;
+    display: flex;
+}
+.contact_us__flex-content {
+    padding-left: 124px;
+}
+.contact_us__flex-content h2 {
+    padding-top: 34px;
+    padding-bottom: 36px;
+}
+.contact_us__flex-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #8f95a5;
+    padding-bottom: 53px;
+}
+.contact_us__flex-content-send_email {
+    display: flex;
+}
+.contact_us__flex-content-send_email input {
+    margin-right: 13px;
+    border: 1px solid #8f95a5;
+    border-radius: 10px;
+    width: 450px;
+    height: 80px;
+}
+.contact_us__flex-content-send_email input[placeholder] {
+    padding-left: 33px;
+}
+.contact_us__flex-content-send_email .btn {
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 264px;
+    height: 80px;
+    background: #263238;
+}
+.contact_us__flex-content-send_email a[placeholder] {
+
+}
