@@ -123,6 +123,9 @@ button {
     height: 70px;
     text-align: center;
 }
+.btn:hover {
+    filter:brightness(0.5)
+}
 
 h2 {
     font-family: var(--font-family);
@@ -161,7 +164,12 @@ h2 {
     padding-top: 14px;
     font-weight: 400;
     font-size: 24px;
+    background-color: #fff;
     color: #000;
+}
+.header__flex .btn:hover {
+    filter: none;
+    background-color: #ebebeb;;
 }
 
 /* title */
@@ -430,6 +438,10 @@ h2 {
     background: #eee;
     text-align: center;
 }
+.pricing__grid-card a:hover {
+    filter: brightness(1.3);
+}
+
 .pricing__grid-card a span {
     font-family: var(--font-family);
     font-weight: 400;
