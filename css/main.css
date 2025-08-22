@@ -109,7 +109,6 @@ button {
 .block {
     margin: 0 auto;
     max-width: 1336px;
-
 }
 
 .btn {
@@ -123,6 +122,14 @@ button {
     width: 220px;
     height: 70px;
     text-align: center;
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    color: #000;
 }
 
 /* header */
@@ -214,11 +221,6 @@ button {
 /* skills */
 .skills h2 {
     padding-top: 150px;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 167%;
-    color: #000;
     text-align: center;
     }
 .skills__grid {
@@ -351,11 +353,6 @@ button {
     padding-top: 29px;
 }
 .about_us__flex-left h2 {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 167%;
-    color: #000;
     padding-bottom: 24px;
 }
 .about_us__flex-left p {
@@ -393,4 +390,95 @@ button {
     padding-left: 88px;
 }
 .about_us__flex-right {
+}
+
+/* pricing */
+.pricing h2 {
+    padding-top: 187px;
+    text-align: center;
+}
+.pricing__grid {
+    padding-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.pricing__grid-card {
+    padding-bottom: 20px;
+}
+.pricing__grid-card h6 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    color: #263238;
+}
+.pricing__grid-card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #8f95a5;
+}
+.pricing__grid-card a {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #546269;
+    width: 240px;
+    height: 45px;
+    border: 2px solid;
+    background: #eee;
+    text-align: center;
+}
+.pricing__grid-card a span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #263238;
+    vertical-align: middle;
+}
+
+#card1 img {
+    padding-left: 23px;
+}
+#card1 h6 {
+    padding-top: 42px;
+    padding-bottom: 16px;
+}
+#card1 p {
+    padding-bottom: 27px;
+}
+
+#card2 img {
+    padding-top: 26px;
+    padding-left: 27px;
+}
+#card2 h6 {
+    padding-top: 42px;
+    padding-left: 30px;
+    padding-bottom: 23px;
+}
+#card2 p {
+    padding-bottom: 59px;
+    padding-left: 30px;
+}
+#card2 a {
+    margin-left: 33px;
+}
+
+#card3 img {
+    padding-left: 61px;
+}
+#card3 h6 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+}
+#card3 p {
+
+    padding-left: 12px;
+    padding-bottom: 59px;
+}
+#card3 a {
+    margin-left: 12px;
 }
