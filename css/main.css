@@ -135,6 +135,9 @@ h2 {
     line-height: 167%;
     color: #000;
 }
+.mobile {
+        display: none;
+    }
 
 /* header */
 
@@ -560,6 +563,7 @@ h2 {
         padding-left: 31px;
         padding-right: 31px;
     }
+
     /* header 992 */
     .header__flex {
         padding-top: 28px;
@@ -953,8 +957,262 @@ h2 {
     }
 }
 
+
 @media screen and (max-width: 768px) {
     .desktop {
         display: none;
     }
+    .mobile {
+        display: block;
+    }
+    .block {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* header 768px */
+    .header__flex img:not(.mobile) {
+        padding-top: 20px;
+    }
+    .header__flex img.mobile {
+        width: 30px;
+        height: auto;
+        padding-top: 10px;
+        margin-right: 0;
+    }
+    .header__flex {
+        padding-top: 25px;
+        justify-content: space-between;
+    }
+    /* title 768px */
+    .title_flex-left {
+        max-width: 335px;
+        margin-right: 38px;
+    }
+    .title_flex-h1 h1 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 125%;
+        color: #000;
+    }
+    .title_flex-h1 img {
+        width: 67px;
+        height: auto;
+        padding-top: 66px;
+        padding-left: 0px;
+        align-self: center;
+    }
+    .title_flex-left p {
+        padding-top: 27px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #8f95a5;
+        margin-bottom: 33px;
+    }
+    .title_flex-left .btn {
+        padding-top: 19px;
+        border-radius: 5px;
+        width: 236px;
+        height: 65px;
+        background: #263238;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        color: #fff;
+    }
+    .title_flex-right img {
+        padding-top: 66px;
+        padding-left: 0px;
+    }
+        /* skills 768 */
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 100%;
+        color: #000;
+    }
+    .skills h2 {
+        padding-top: 82px;
+    }
+    .skills__grid {
+        padding-top: 57px;
+        gap: 9px;
+        padding-bottom: 16px;
+    }
+    .skills__grid-card h6 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: #263238;
+    }
+    .skills__grid-card p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 13px;
+        color: #8f95a5;
+    }
+    .skills__grid-card .btn{
+        padding-top: 12px;
+        border-radius: 5px;
+        width: 178px;
+        height: 50px;
+        background: #263238;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+    }
+    .speaking .skills__grid-card-img {
+        width: 214px;
+        height: auto;
+        padding-top: 33px;
+        padding-left: 3px;
+        margin-right: 0px;
+    }
+    .speaking .skills__grid-card-content {
+        padding-top: 33px;
+        padding-left: 16px;
+        margin-right: 10px;
+    }
+    .speaking p {
+        max-width: 197px;
+        padding-top: 17px;
+        margin-bottom: 41px;
+    }
+    .speaking .btn {
+        margin-bottom: 35px;
+    }
+    .writing .skills__grid-card-img img {
+        display: block;
+        width: 183px;
+        height: auto;
+    }
+    .writing .skills__grid-card-img {
+        padding-top: 38px;
+        padding-left: 16px;
+        margin-right: 0px;
+    }
+    .writing .skills__grid-card-content {
+        padding-top: 15px;
+        padding-left: 17px;
+        margin-right: 5px;
+    }
+    .writing p {
+        max-width: 182px;
+        padding-top: 13px;
+        margin-bottom: 19px;
+    }
+    .writing .btn {
+        margin-bottom: 23px;
+    }
+    .reading .skills__grid-card-img img {
+        display: block;
+        width: 216px;
+        height: auto;
+        margin-right: 0px;
+    }
+    .reading .skills__grid-card-img {
+        padding-top: 33px;
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+    .reading .skills__grid-card-content {
+        padding-top: 31px;
+        padding-left: 22px;
+    }
+    .reading p {
+        max-width: 193px;
+        padding-top: 14px;
+        margin-bottom: 23px;
+    }
+    .reading .btn {
+        /* margin-left: 8px; */
+    }
+    .listening {
+        grid-area: four;
+        display: flex;
+        flex-direction: row;
+        padding-top: 18px;
+        padding-left: 26px;
+    }
+    .listening .skills__grid-card-img img {
+        display: block;
+        width: 202px;
+        height: auto;
+    }
+    .listening .skills__grid-card-img {
+        order: 2;
+    }
+    .listening .skills__grid-card-img {
+        padding-top: 49px;
+        padding-left: 0px;
+    }
+    .listening .skills__grid-card-content {
+        padding-top: 2px;
+    }
+    .listening p {
+        max-width: 281px;
+        padding-top: 11px;
+        margin-bottom: 16px;
+    }
+    /* about 768 */
+    .about_us__flex-left {
+        padding-top: 66px;
+        padding-bottom: 20px;
+    }
+    .about_us__flex-left h2 {
+        padding-bottom: 21px;
+    }
+    .about_us__flex-left p {
+        max-width: 320px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #8f95a5;
+        padding-bottom: 33px;
+    }
+    .about_us__flex-result_flex-item-number {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 364%;
+        color: #2a3246;
+        line-height: 100%;
+        color: #2a3246;
+        text-align: center;
+        padding-bottom: 19px;
+    }
+    .about_us__flex-result_flex-item-name {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 13px;
+        color: #8f95a5;
+        text-align: center;
+    }
+    .about_us__flex-result_flex-item {
+        padding-left: 7px;
+    }
+    #teachers {
+        padding-left: 54px;
+    }
+    #foreign {
+        padding-left: 38px;
+    }
+    .about_us__flex-right img {
+        max-width: 295px;
+        padding-top: 75px;
+        padding-left: 10px;
+    }
+
+
+    .pricing,
+    .contact_us,
+    .footer {
+        display: none;
+    }
+
 }
