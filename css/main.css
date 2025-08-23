@@ -560,6 +560,7 @@ h2 {
         padding-left: 31px;
         padding-right: 31px;
     }
+    /* header 992 */
     .header__flex {
         padding-top: 28px;
     }
@@ -577,7 +578,7 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     color: #263238;
-}
+    }
     .header__flex .btn {
         margin-top: 0px;
         padding-top: 8px;
@@ -588,7 +589,7 @@ h2 {
         font-size: 18px;
         color: #000;
     }
-
+    /* title 992 */
     .title_flex {
         padding-top: 57px;
     }
@@ -637,7 +638,7 @@ h2 {
         padding-top: 89px;
         padding-left: 0px;
     }
-
+    /* skills 992 */
     h2 {
         font-family: var(--font-family);
         font-weight: 600;
@@ -665,7 +666,6 @@ h2 {
         font-weight: 400;
         font-size: 14px;
         color: #8f95a5;
-
     }
     .skills__grid-card .btn{
         padding-top: 12px;
@@ -678,7 +678,6 @@ h2 {
         font-size: 18px;
         color: #fff;
     }
-
     .speaking .skills__grid-card-img {
         width: 280px;
         height: auto;
@@ -699,7 +698,6 @@ h2 {
     .speaking .btn {
         margin-bottom: 51px;
     }
-
     .writing .skills__grid-card-img img {
         display: block;
         width: 187px;
@@ -722,7 +720,6 @@ h2 {
     .writing .btn {
         margin-bottom: 0px;
     }
-
     .reading .skills__grid-card-img img {
         display: block;
         width: 247px;
@@ -743,7 +740,6 @@ h2 {
         padding-top: 25px;
         margin-bottom: 23px;
     }
-
     .listening {
         grid-area: four;
         display: flex;
@@ -771,7 +767,7 @@ h2 {
         padding-top: 26px;
         margin-bottom: 13px;
     }
-
+    /* about 992 */
     .about_us__flex-left {
         padding-top: 66px;
     }
@@ -811,7 +807,7 @@ h2 {
     #foreign {
         padding-left: 47px;
     }
-
+    /* pricing 992 */
     .pricing h2 {
         padding-top: 83px;
         text-align: center;
@@ -865,7 +861,6 @@ h2 {
     #card1 p {
         padding-bottom: 29px;
     }
-
     #card2 img {
         max-width: 267px;
         padding-top: 21px;
@@ -883,7 +878,6 @@ h2 {
     #card2 a {
         margin-left: 28px;
     }
-
     #card3 img {
         max-width: 268px;
         padding-left: 34px;
@@ -894,14 +888,13 @@ h2 {
         padding-bottom: 8px;
     }
     #card3 p {
-
         padding-left: 53px;
         padding-bottom: 30px;
     }
     #card3 a {
         margin-left: 53px;
     }
-
+    /* contact 992 */
     .contact_us__flex {
         padding-top: 94px;
         padding-bottom: 175px;
@@ -941,7 +934,7 @@ h2 {
         height: 60px;
         background: #263238;
     }
-
+    /* footer 992 */
     .footer__flex {
         padding-top: 22px;
         display: flex;
@@ -950,7 +943,6 @@ h2 {
     }
     .footer__flex img {
         max-width: 89px;
-
     }
     .footer__flex p {
         padding-top: 15px;
@@ -959,5 +951,10 @@ h2 {
         font-size: 16px;
         color: #8f95a5;
     }
+}
 
+@media screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
 }
