@@ -927,9 +927,9 @@ h2 {
     .contact_us__flex-content-send_email input {
         margin-right: 13px;
         border: 1px solid #8f95a5;
-    border-radius: 10px;
-    width: 323px;
-    height: 60px;
+        border-radius: 10px;
+        width: 323px;
+        height: 60px;
     }
     .contact_us__flex-content-send_email .btn {
         padding-top: 16px;
@@ -1207,12 +1207,169 @@ h2 {
         padding-top: 75px;
         padding-left: 10px;
     }
-
-
-    .pricing,
-    .contact_us,
-    .footer {
-        display: none;
+    /* pricing 768 */
+    .pricing h2 {
+        padding-top: 89px;
+        text-align: center;
     }
+    .pricing__grid {
+        padding-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .pricing__grid-card h6 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #263238;
+    }
+    .pricing__grid-card p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #8f95a5;
+    }
+    .pricing__grid-card a {
+        padding-top: 5px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #546269;
+        border-radius: 5px;
+        width: 205px;
+        height: 45px;
+        border: none;
+        background: #eee;
+        text-align: center;
+    }
+    .pricing__grid-card a span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 22px;
+        color: #263238;
+        vertical-align: middle;
+    }
+    #card1 img {
+        max-width: 197px;
+        padding-top: 23px;
+        padding-left: 0px;
+    }
+    #card1 h6 {
+        padding-top: 24px;
+        padding-bottom: 12px;
+    }
+    #card1 p {
+        padding-bottom: 29px;
+    }
+    #card2 img {
+        max-width: 227px;
+        padding-top: 53px;
+        padding-left: 11px;
+        margin-left: 18px;
+    }
+    #card2 h6 {
+        padding-top: 35px;
+        padding-left: 37px;
+        padding-bottom: 14px;
+        width: 195px;
+    }
+    #card2 p {
+        padding-left: 28px;
+        padding-bottom: 44px;
+    }
+    #card2 a {
+        margin-left: 36px;
+    }
+    #card3 img {
+        max-width: 224px;
+        padding-top: 18px;
+        padding-left: 18px;
+        margin-left: 15px;
+    }
+    #card3 h6 {
+        width: 94px;
+        padding-top: 18px;
+        padding-left: 30px;
+        padding-bottom: 8px;
+    }
+    #card3 p {
+        padding-left: 30px;
+        padding-bottom: 51px;
+    }
+    #card3 a {
+        margin-left: 29px;
+    }
+    /* contact 768 */
+    .contact_us__flex {
+        padding-top: 33px;
+        padding-bottom: 126px;
+    }
+    .contact_us__flex img {
+        max-width: 224px;
+        width: auto;
+        padding-top: 36px;
+        padding-right: 3px;
+        margin-right: 8px;
+    }
+    .contact_us__flex-content {
+        padding-left: 9px;
+    }
+    .contact_us__flex-content h2 {
+        padding-top: 34px;
+        padding-left: 13px;
+        padding-bottom: 15px;
+    }
+    .contact_us__flex-content p {
+        max-width: 387px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #8f95a5;
+        padding-left: 17px;
+        padding-bottom: 26px;
+    }
+    .contact_us__flex-content-send_email {
+        padding-left: 14px;
+    }
+    .contact_us__flex-content-send_email input {
+        width: 283px;
+        height: 50px;
+        margin-right: 6px;
+        border: 1px solid #8f95a5;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .contact_us__flex-content-send_email input[placeholder] {
+        padding-left: 23px;
+    }
+    .contact_us__flex-content-send_email .btn {
+        padding-top: 16px;
+        border-radius: 5px;
+        width: 145px;
+        height: 50px;
+        background: #263238;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 13px;
+        color: #fff;
+    }
+    /* footer */
+    .footer hr {
+        background: #c4c4c4;
+    }
+    .footer__flex {
+        padding-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 24px;
+    }
+    .footer__flex p {
+        padding-top: 13px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
 
 }
