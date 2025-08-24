@@ -193,6 +193,9 @@ h2 {
     padding-top: 47px;
     display: flex;
 }
+.h1_mobile {
+        display: none;
+    }
 .title_flex-h1 h1 {
     font-family: var(--font-family);
     font-weight: 600;
@@ -604,6 +607,7 @@ h2 {
     .title_flex-h1 {
         padding-top: 22px;
     }
+
     .title_flex-h1 h1 {
         margin-right: 11px;
         font-family: var(--font-family);
@@ -1371,5 +1375,206 @@ h2 {
 }
 
 @media screen and (max-width: 576px) {
+    .block {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    /* header 576px */
+    .header__flex img:not(.mobile) {
+        padding-top: 20px;
+    }
+    .header__flex img.mobile {
+        width: 42px;
+        height: auto;
+        padding-top: 25px;
+        margin-right: 17px;
+    }
+    .header__flex {
+        padding-top: 25px;
+        justify-content: space-between;
+    }
+    /* title 576px */
+    .title_flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title_flex-left {
+        max-width: 491px;
+        margin-right: 0px;
+    }
+    .title_flex-h1 {
+        flex-wrap: wrap;
+        padding-top: 53px;
+    }
+    .h1_desktop {
+        display: none;
+    }
+    .h1_mobile {
+        display: block;
+
+    }
+    .title_flex-h1 h1 {
+        font-size: 34px;
+        line-height: 132%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .title_flex-h1 img {
+        display: none;
+    }
+    .title_flex-left p {
+        padding-top: 27px;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 33px;
+    }
+    .title_flex-left a {
+        margin-left: 92px;
+    }
+    .title_flex-left .btn {
+        padding-top: 19px;
+        border-radius: 5px;
+        width: 305px;
+        height: 75px;
+    }
+    .title_flex-right {
+        order: -1;
+    }
+    .title_flex-right img {
+        max-width: 390px;
+        padding-top: 40px;
+    }
+        /* skills 576 */
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 100%;
+        color: #000;
+    }
+    .skills h2 {
+        padding-top: 123px;
+    }
+    .skills__grid {
+        padding-top: 55px;
+        grid-template-areas:
+            "one two"
+            "three four";
+        gap: 30px;
+        padding-bottom: 16px;
+    }
+    .skills__grid-card h6 {
+        font-size: 18px;
+
+    }
+    .skills__grid-card p {
+        font-size: 12px;
+    }
+    .skills__grid-card .btn{
+        padding-top: 12px;
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .speaking .skills__grid-card-img {
+        width: 185px;
+        height: auto;
+        padding-top: 0px;
+        margin-left: 11px;
+        margin-right: 0px;
+    }
+    .speaking .skills__grid-card-content {
+        padding-top: 14px;
+        padding-left: 16px;
+        margin-right: 25px;
+    }
+    .speaking p {
+        max-width: 185px;
+        padding-top: 17px;
+        margin-bottom: 21px;
+    }
+    .speaking .btn {
+        margin-bottom: 35px;
+    }
+    .writing .skills__grid-card-img img {
+        display: block;
+        width: 168px;
+        height: auto;
+    }
+    .writing .skills__grid-card-img {
+        padding-top: 31px;
+        padding-left: 0;
+        margin-left: 31px;
+        margin-right: 0px;
+    }
+    .writing .skills__grid-card-content {
+        padding-top: 25px;
+        padding-left: 17px;
+        margin-right: 5px;
+    }
+    .writing p {
+        max-width: 182px;
+        padding-top: 13px;
+        margin-bottom: 128px;
+    }
+    .writing .btn {
+        margin-bottom: 23px;
+    }
+    .reading .skills__grid-card-img img {
+        display: block;
+        width: 216px;
+        height: auto;
+        margin-right: 0px;
+    }
+    .reading .skills__grid-card-img {
+        padding-top: 33px;
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+    .reading .skills__grid-card-content {
+        padding-top: 23px;
+        padding-left: 17px;
+    }
+    .reading p {
+        max-width: 178px;
+        padding-top: 18px;
+        margin-bottom: 129px;
+    }
+    .reading .btn {
+    }
+    .listening {
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+        align-content: flex-start;
+        padding-top: 18px;
+        padding-left: 18px;
+    }
+    .listening .skills__grid-card-img img {
+        display: block;
+        width: 202px;
+        height: auto;
+    }
+    .listening .skills__grid-card-img {
+        order: 0;
+        padding-top: 27px;
+        padding-left: 0px;
+    }
+    .listening .skills__grid-card-content {
+        padding-top: 27px;
+    }
+    .listening p {
+        max-width: 183px;
+        padding-top: 11px;
+        margin-bottom: 147px;
+    }
+
+
+
+    .about_us,
+    .pricing,
+    .contact_us,
+    .footer {
+        display: none;
+    }
 
 }
