@@ -455,7 +455,8 @@ h2 {
   color: #546269;
   width: 240px;
   height: 45px;
-  border: 2px solid;
+  border: none;
+  border-radius: 5px;
   background: #eee;
   text-align: center;
 }
@@ -595,20 +596,14 @@ h2 {
     margin-right: 104px;
   }
   .header__flex-menu_grid a {
-    font-family: var(--font-family);
-    font-weight: 500;
     font-size: 16px;
-    color: #263238;
   }
   .header__flex .btn {
     margin-top: 0px;
     padding-top: 8px;
     width: 160px;
     height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 18px;
-    color: #000;
   }
   /* title 992 */
   .title_flex {
@@ -624,11 +619,8 @@ h2 {
 
   .title_flex-h1 h1 {
     margin-right: 11px;
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 48px;
     line-height: 133%;
-    color: #000;
   }
   .title_flex-h1 img {
     width: 85px;
@@ -639,10 +631,7 @@ h2 {
   }
   .title_flex-left p {
     padding-top: 27px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 20px;
-    color: #8f95a5;
     margin-bottom: 33px;
   }
   .title_flex-left .btn {
@@ -651,8 +640,6 @@ h2 {
     width: 292px;
     height: 80px;
     background: #263238;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     color: #fff;
   }
@@ -662,11 +649,8 @@ h2 {
   }
   /* skills 992 */
   h2 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 36px;
     line-height: 167%;
-    color: #000;
   }
   .skills h2 {
     padding-top: 82px;
@@ -677,28 +661,18 @@ h2 {
     padding-bottom: 50px;
   }
   .skills__grid-card h6 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 22px;
     line-height: 0%;
-    color: #263238;
   }
   .skills__grid-card p {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
-    color: #8f95a5;
   }
   .skills__grid-card .btn {
     padding-top: 12px;
     border-radius: 5px;
     width: 196px;
     height: 57px;
-    background: #263238;
-    font-family: var(--font-family);
-    font-weight: 500;
     font-size: 18px;
-    color: #fff;
   }
   .speaking .skills__grid-card-img {
     width: 280px;
@@ -710,7 +684,6 @@ h2 {
   .speaking .skills__grid-card-content {
     padding-top: 38px;
     padding-left: 29px;
-    /* margin-right: 10px; */
   }
   .speaking p {
     max-width: 222px;
@@ -763,14 +736,10 @@ h2 {
     margin-bottom: 23px;
   }
   .listening {
-    grid-area: four;
-    display: flex;
-    flex-direction: row;
     padding-top: 14px;
     padding-left: 31px;
   }
   .listening .skills__grid-card-img img {
-    display: block;
     width: 254px;
     height: auto;
   }
@@ -798,27 +767,16 @@ h2 {
   }
   .about_us__flex-left p {
     max-width: 531px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #8f95a5;
     padding-bottom: 25px;
   }
   .about_us__flex-result_flex-item-number {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 30px;
     line-height: 100%;
-    color: #2a3246;
-    text-align: center;
     padding-bottom: 20px;
   }
   .about_us__flex-result_flex-item-name {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #8f95a5;
-    text-align: center;
   }
   .about_us__flex-result_flex-item {
     padding-left: 7px;
@@ -832,45 +790,24 @@ h2 {
   /* pricing 992 */
   .pricing h2 {
     padding-top: 83px;
-    text-align: center;
   }
   .pricing__grid {
     padding-top: 38px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
   }
   .pricing__grid-card h6 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 22px;
-    line-height: 155%;
-    color: #263238;
   }
   .pricing__grid-card p {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #8f95a5;
   }
   .pricing__grid-card a {
     padding-top: 5px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #546269;
-    border-radius: 5px;
     width: 205px;
     height: 45px;
-    border: none;
-    background: #eee;
-    text-align: center;
   }
   .pricing__grid-card a span {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
-    color: #263238;
-    vertical-align: middle;
   }
   #card1 img {
     max-width: 222px;
@@ -936,31 +873,22 @@ h2 {
   }
   .contact_us__flex-content p {
     max-width: 443px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #8f95a5;
     padding-bottom: 34px;
   }
   .contact_us__flex-content-send_email input {
     margin-right: 13px;
-    border: 1px solid #8f95a5;
-    border-radius: 10px;
     width: 323px;
     height: 60px;
   }
   .contact_us__flex-content-send_email .btn {
     padding-top: 16px;
-    border-radius: 10px;
     width: 193px;
     height: 60px;
-    background: #263238;
   }
   /* footer 992 */
   .footer__flex {
     padding-top: 22px;
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 26px;
   }
   .footer__flex img {
@@ -968,10 +896,7 @@ h2 {
   }
   .footer__flex p {
     padding-top: 15px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #8f95a5;
   }
 }
 
@@ -992,7 +917,6 @@ h2 {
   }
   .header__flex img.mobile {
     width: 30px;
-    height: auto;
     padding-top: 10px;
     margin-right: 0;
   }
@@ -1006,25 +930,16 @@ h2 {
     margin-right: 38px;
   }
   .title_flex-h1 h1 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 36px;
-    line-height: 125%;
-    color: #000;
   }
   .title_flex-h1 img {
     width: 67px;
-    height: auto;
     padding-top: 66px;
     padding-left: 0px;
-    align-self: center;
   }
   .title_flex-left p {
     padding-top: 27px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #8f95a5;
     margin-bottom: 33px;
   }
   .title_flex-left .btn {
@@ -1032,12 +947,7 @@ h2 {
     border-radius: 5px;
     width: 236px;
     height: 65px;
-    background: #263238;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 18px;
-    color: #fff;
-    color: #fff;
   }
   .title_flex-right img {
     padding-top: 66px;
@@ -1045,11 +955,8 @@ h2 {
   }
   /* skills 768 */
   h2 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 30px;
     line-height: 100%;
-    color: #000;
   }
   .skills h2 {
     padding-top: 82px;
@@ -1060,28 +967,17 @@ h2 {
     padding-bottom: 16px;
   }
   .skills__grid-card h6 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 20px;
     line-height: 100%;
-    color: #263238;
   }
   .skills__grid-card p {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 13px;
-    color: #8f95a5;
   }
   .skills__grid-card .btn {
     padding-top: 12px;
-    border-radius: 5px;
     width: 178px;
     height: 50px;
-    background: #263238;
-    font-family: var(--font-family);
-    font-weight: 500;
     font-size: 16px;
-    color: #fff;
   }
   .speaking .skills__grid-card-img {
     width: 214px;
@@ -1146,20 +1042,12 @@ h2 {
     padding-top: 14px;
     margin-bottom: 23px;
   }
-  .reading .btn {
-    /* margin-left: 8px; */
-  }
   .listening {
-    grid-area: four;
-    display: flex;
-    flex-direction: row;
     padding-top: 18px;
     padding-left: 26px;
   }
   .listening .skills__grid-card-img img {
-    display: block;
     width: 202px;
-    height: auto;
   }
   .listening .skills__grid-card-img {
     order: 2;
@@ -1186,29 +1074,16 @@ h2 {
   }
   .about_us__flex-left p {
     max-width: 320px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
-    color: #8f95a5;
     padding-bottom: 33px;
   }
   .about_us__flex-result_flex-item-number {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 22px;
-    line-height: 364%;
-    color: #2a3246;
     line-height: 100%;
-    color: #2a3246;
-    text-align: center;
     padding-bottom: 19px;
   }
   .about_us__flex-result_flex-item-name {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 13px;
-    color: #8f95a5;
-    text-align: center;
   }
   .about_us__flex-result_flex-item {
     padding-left: 7px;
@@ -1231,41 +1106,22 @@ h2 {
   }
   .pricing__grid {
     padding-top: 32px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
   }
   .pricing__grid-card h6 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 20px;
     line-height: 140%;
-    color: #263238;
   }
   .pricing__grid-card p {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
-    color: #8f95a5;
   }
   .pricing__grid-card a {
     padding-top: 5px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
-    color: #546269;
-    border-radius: 5px;
     width: 205px;
     height: 45px;
-    border: none;
-    background: #eee;
-    text-align: center;
   }
   .pricing__grid-card a span {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 22px;
-    color: #263238;
-    vertical-align: middle;
   }
   #card1 img {
     max-width: 197px;
@@ -1339,10 +1195,7 @@ h2 {
   }
   .contact_us__flex-content p {
     max-width: 387px;
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
-    color: #8f95a5;
     padding-left: 17px;
     padding-bottom: 26px;
   }
@@ -1353,8 +1206,6 @@ h2 {
     width: 283px;
     height: 50px;
     margin-right: 6px;
-    border: 1px solid #8f95a5;
-    border-radius: 10px;
     font-size: 12px;
   }
   .contact_us__flex-content-send_email input[placeholder] {
@@ -1365,20 +1216,11 @@ h2 {
     border-radius: 5px;
     width: 145px;
     height: 50px;
-    background: #263238;
-    font-family: var(--font-family);
-    font-weight: 500;
     font-size: 13px;
-    color: #fff;
   }
   /* footer 768*/
-  .footer hr {
-    background: #c4c4c4;
-  }
   .footer__flex {
     padding-top: 18px;
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 24px;
   }
   .footer__flex p {
@@ -1404,13 +1246,11 @@ h2 {
   }
   .header__flex img.mobile {
     width: 42px;
-    height: auto;
     padding-top: 25px;
     margin-right: 17px;
   }
   .header__flex {
     padding-top: 25px;
-    justify-content: space-between;
   }
   /* title 576px */
   .title_flex {
@@ -1464,11 +1304,8 @@ h2 {
   }
   /* skills 576 */
   h2 {
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 30px;
     line-height: 100%;
-    color: #000;
   }
   .skills h2 {
     padding-top: 123px;
@@ -1495,7 +1332,6 @@ h2 {
   }
   .speaking .skills__grid-card-img {
     width: 185px;
-    height: auto;
     padding-top: 0px;
     margin-left: 11px;
     margin-right: 0px;
@@ -1514,9 +1350,7 @@ h2 {
     margin-bottom: 35px;
   }
   .writing .skills__grid-card-img img {
-    display: block;
     width: 168px;
-    height: auto;
   }
   .writing .skills__grid-card-img {
     padding-top: 31px;
@@ -1538,9 +1372,7 @@ h2 {
     margin-bottom: 23px;
   }
   .reading .skills__grid-card-img img {
-    display: block;
     width: 216px;
-    height: auto;
     margin-right: 0px;
   }
   .reading .skills__grid-card-img {
@@ -1557,8 +1389,6 @@ h2 {
     padding-top: 18px;
     margin-bottom: 129px;
   }
-  .reading .btn {
-  }
   .listening {
     flex-wrap: wrap;
     align-content: flex-start;
@@ -1566,7 +1396,6 @@ h2 {
     padding-left: 18px;
   }
   .listening .skills__grid-card-img img {
-    display: block;
     width: 202px;
     height: auto;
   }
@@ -1608,11 +1437,7 @@ h2 {
     padding-bottom: 19px;
   }
   .about_us__flex-result_flex-item-name {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 13px;
-    color: #8f95a5;
-    text-align: center;
   }
   .about_us__flex-result_flex-item {
     padding-left: 54px;
@@ -1639,7 +1464,6 @@ h2 {
   /* pricing 576 */
   .pricing h2 {
     padding-top: 106px;
-    text-align: center;
   }
   .pricing__grid {
     padding-top: 32px;
@@ -1649,12 +1473,6 @@ h2 {
   .pricing__grid-card h6 {
     font-size: 24px;
     line-height: 117%;
-  }
-  .pricing__grid-card p {
-  }
-  .pricing__grid-card a {
-  }
-  .pricing__grid-card a span {
   }
   #card1 img {
     max-width: 297px;
@@ -1738,7 +1556,6 @@ h2 {
   }
   .contact_us__flex-content p {
     max-width: 490px;
-    font-family: var(--font-family);
     font-size: 16px;
     text-align: center;
     padding-bottom: 54px;
@@ -1750,7 +1567,6 @@ h2 {
     border-radius: 10px;
     width: 319px;
     height: 60px;
-    border-radius: 10px;
     font-size: 12px;
   }
   .contact_us__flex-content-send_email input[placeholder] {
@@ -1768,8 +1584,6 @@ h2 {
   /* footer 576*/
   .footer__flex {
     padding-top: 27px;
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 36px;
   }
   .footer__flex p {
@@ -1785,11 +1599,9 @@ h2 {
   /* header 320 */
   .header__flex {
     padding-top: 31px;
-    justify-content: space-between;
   }
   .header__flex img.mobile {
     width: 33px;
-    height: auto;
     padding-top: 0px;
     margin-right: 0px;
   }
@@ -1915,15 +1727,11 @@ h2 {
     margin-bottom: 44px;
   }
   .listening {
-    flex-wrap: wrap;
-    align-content: flex-start;
     padding-top: 18px;
     padding-left: 18px;
   }
   .listening .skills__grid-card-img img {
-    display: block;
     width: 232px;
-    height: auto;
   }
   .listening .skills__grid-card-img {
     order: 0;
@@ -2000,8 +1808,6 @@ h2 {
   .pricing__grid-card a span {
     font-size: 18px;
   }
-
-
   #card1 img {
     max-width: 248px;
     padding-top: 45px;
