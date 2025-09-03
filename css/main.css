@@ -1475,9 +1475,8 @@ h2 {
     line-height: 117%;
   }
   #card1 img {
-    max-width: 297px;
     padding-top: 45px;
-    margin-left: 105px;
+    margin: 0 auto;
   }
   #card1 h6 {
     padding-top: 24px;
@@ -1516,7 +1515,7 @@ h2 {
     max-width: 260px;
     padding-top: 46px;
     padding-left: 0px;
-    margin-left: 114px;
+    margin: 0 auto;
   }
   #card3 h6 {
     width: 100%;
@@ -1547,11 +1546,12 @@ h2 {
     max-width: 338px;
     padding-top: 68px;
     padding-right: 0px;
-    margin-left: 87px;
+    margin: 0 auto;
   }
   .contact_us__flex-content {
     padding-top: 64px;
     padding-left: 0px;
+    margin: 0 auto;
     text-align: center;
   }
   .contact_us__flex-content p {
@@ -1811,7 +1811,6 @@ h2 {
   #card1 img {
     max-width: 248px;
     padding-top: 45px;
-    margin-left: 28px;
   }
   #card1 h6 {
     padding-top: 28px;
@@ -1828,7 +1827,6 @@ h2 {
   #card2 img {
     max-width: 257px;
     padding-top: 46px;
-    margin: 0 auto;
   }
   #card2 h6 {
     padding-top: 19px;
