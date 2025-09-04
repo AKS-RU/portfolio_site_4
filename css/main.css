@@ -156,6 +156,8 @@ h2 {
 /* header */
 
 .header__flex {
+  position: fixed;
+  background-color: #fff;
   padding-top: 50px;
   display: flex;
   justify-content: left;
@@ -374,6 +376,9 @@ h2 {
 }
 
 /* About Us */
+.about_us {
+  scroll-margin-top: 230px;
+}
 .about_us__flex {
   display: flex;
   justify-content: space-between;
